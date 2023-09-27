@@ -6,21 +6,25 @@
     color: black;
 }
 
+.main{
+    background-color: #F7F7F7;
+}
 
 .store-books{
     padding: 1% 10%;
 }
 .content{
     border: 1px solid #49B14D;
-    margin-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    background-color: #ffff;
 
 }
 .content img{
-    height: 100px;
+    height: 80px;
     display: block;
-    padding: 10px 40px;
+    padding: 5px 30px;
     transition: transform .9s;
 }
 .books-category{
@@ -29,7 +33,7 @@
 }
 .category-img{
     display: flex;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
    
 
 }
@@ -50,7 +54,7 @@
 }
 .category-img a{
     color: #49B14D;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 main hr{
     border: 0.1px solid #79f57d85;

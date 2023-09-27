@@ -7,9 +7,64 @@
 }
 
 .main{
-    height: 600px;
+    background-color: #F7F7F7;
+    padding: 1% 10%;
 }
 
+.content-header {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #49B14D;
+}
+.content-header hr{
+    width: 50px;
+    color: #49B14D;
+    border: 1px solid #49B14D;
+}
+
+.form{
+    background-color: #ffff;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 50px;
+}
+.get-books{
+    display: flex;
+    gap: 30px;
+}
+
+.book-text{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.select-item{
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: #d8d8d8;
+    
+}
+.get-books input{
+    background-color: #49B14D;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #49B14D ;
+    margin-top: 32px;
+    color: #ffff;
+    font-size: 15px;
+}
+.get-books input:hover{
+    cursor: pointer;
+    background-color: #3f8b42;
+}
+#status{
+    padding-right: 0;
+}
 .footer-bottom .books{
     color: black;
 }

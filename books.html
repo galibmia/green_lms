@@ -74,12 +74,55 @@
     </div>
   </header>
 
+
+
   <main>
     <section class="main">
-      
+      <section class="store-books">
+        <h3 class="content-header">
+          Store Books Category
+          <hr />
+        </h3>
+      </section>
+
+      <section class="form">
+        <form action="get_books" class="get-books">
+          <label for="book-category" class="select">
+            <span class="book-text">Books Category</span> 
+            <select name="book-category" id="book-category" class="select-item">
+              <option value="" disabled selected hidden>Please select</option>
+              <option value="science">Science</option>
+              <option value="general Knowledge">General Knowledge</option>
+              <option value="business">Business</option>
+              <option value="kids">Kids</option>
+              <option value="music and movie">Music and Movie</option>
+          </select></label>
+
+          <label for="books" class="select">
+            <span class="book-text">Books</span>
+            <select name="books" id="books" class="select-item">
+              <option value="" disabled selected hidden>Please select</option>
+              <option value="science">Science</option>
+              <option value="general Knowledge">General Knowledge</option>
+              <option value="business">Business</option>
+              <option value="kids">Kids</option>
+              <option value="music and movie">Music and Movie</option>
+          </select></label>
+          <label for="status" class="select" >
+            <span class="book-text">Status</span> 
+            <select name="status" id="status" class="select-item">
+              <option value="" disabled selected hidden>Please select</option>
+              <option value="available">Available</option>
+              <option value="not-available">Not Available</option>
+          </select></label>
+          <input type="button" value="Get Book">
+        </form>
+      </section>
     </section>
 
   </main>
+
+
 
   <footer>
     <section class="footer-top">
