@@ -7,7 +7,79 @@
 }
 .main{
     height: 600px;
+    display: flex;
+    gap: 20px;
+    padding: 1% 20%;
+    background-color: #F7F7F7;
+   padding-bottom: 50px;
 }
+.menu{
+    margin-top: 20px;
+}
+.menu-header{
+    background-color: #49B14D;
+    padding: 10px 50px 10px 10px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.list{
+    background-color: #ffff;
+    
+}
+.list ul{
+    
+    list-style: none;
+    margin: 0;
+  padding: 0;
+  border: 1px solid #49B14D;
+ 
+}
+.list a{
+    text-decoration: none;
+    color: #49B14D;
+}
+.list li{
+    border-bottom: 1px solid #49B14D;
+    padding: 10px;
+}
+.list .li-last{
+    border: none;
+}
+
+/* List End */
+.content{
+    border: 1px solid #49B14D;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #ffff;
+    color: #49B14D;
+
+}
+.content img{
+    height: 200px;
+    display: block;
+    margin: 30px;
+    transition: transform .9s;
+    overflow: hidden;
+}
+
+
+.books-top{
+    display: flex;
+    padding: 10px;
+}
+.books-bottom{
+    display: flex;
+    padding: 10px;
+
+}
+.content img:hover{
+    transform: scale(1.1);
+    
+}
+
 
 .footer-bottom .shop{
     color: black;
