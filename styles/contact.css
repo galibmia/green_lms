@@ -6,9 +6,74 @@
     color: black;
 }
 .main{
-    height: 600px;
+
 }
 
 .footer-bottom .contact{
     color: black;
 }
+.main img{
+    margin-left: 48%;
+    border-radius: 6rem;
+    height: 100px;
+    padding-top: 50px;
+    transform: rotate(29deg);
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.main h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: #0062CC;
+    margin-top: 0;
+    padding-top: 0;
+}
+.form{
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+    justify-content: center;
+}
+.information input{
+    display: block;
+    padding: 10px 10px;
+    width: 450px;
+    color: gray;
+    font-size: 15px;
+    border: 1px solid lightgray ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.information input[type="text"]:focus, input[type="email"]:focus{
+    outline: 5px solid #BFDEFF ;
+    border: none;
+}
+.information .btn{
+    width: 200px;
+    background-color: #DC3545;
+    color: #ffff;
+    margin-bottom: 60px;
+}
+
+.information .btn:hover{
+    background-color: #bb2131;
+    cursor: pointer;
+}
+.message textarea{
+    border: 1px solid lightgray ;
+    border-radius: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 150px;
+    color: gray;
+    font-size: 15px;
+    /* -webkit-transition: 0.5s; */
+  /* transition: 0.8s; */
+ 
+}
+.message textarea:focus{
+    outline: 5px solid #BFDEFF ;
+    border: none;
+}
+

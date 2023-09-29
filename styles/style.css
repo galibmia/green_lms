@@ -30,7 +30,7 @@
 .header-top{
     display: flex;
     justify-content: space-between;
-    padding: 1% 10%;
+    padding: 1% 20%;
     background-color: #49B14D;
 }
 
@@ -44,7 +44,7 @@
 
 .header-mid {
     display: flex;
-    padding: 1% 10% ;
+    padding: 1% 20% ;
     justify-content: space-between;
 }
 
@@ -75,7 +75,7 @@
 
 .header-bottom{
     background-color: #49B14D;
-    padding: 1% 10%;
+    padding: 1% 20%;
 }
 .header-bottom a{
     padding-right: 10px;
@@ -89,7 +89,7 @@
 
 
 .footer-top{
-    padding: 1% 10%;
+    padding: 1% 20%;
     background-color: #68D46C;
     display: flex;
     justify-content: space-between;
@@ -110,7 +110,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #49B14D;
-    padding: 1% 10%;
+    padding: 1% 20%;
     color: #ffff;
 }
 .footer-bottom a{
