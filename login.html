@@ -77,9 +77,32 @@
 
 
   
-      <main>
-    <section class="main">
-      
+    <main class="main">
+    <section class="main-section">
+      <section class="login-section">
+        <div class="header-text">
+          <h2 class="login-text">Login</h2>
+          <hr>
+        </div>
+        <div class="container">
+          <label for="email"> <span class="label-text">Email <span class="star">*</span></span>
+            <input type="email" name="email" id="email" class="login-input" placeholder="Enter Email">
+          </label>
+          <label for="password"> <span class="label-text">Password <span class="star">*</span></span>
+            <input type="password" name="password" id="password" class="login-input" placeholder="Enter Password">
+          </label>
+          <input type="button" value="Login" class="login-btn">
+        </div>
+      </section>
+      <section class="login-panel">
+        <h5 class="panel-text">Login Panel</h5>
+        <div class="panel-btn">
+          <input type="button" value="Admin" class="admin">
+          <input type="button" value="Librarian" class="librarian">
+          <input type="button" value="Member" class="member">
+          <input type="button" value="Guest" class="guest">
+        </div>
+      </section>
     </section>
 
   </main>

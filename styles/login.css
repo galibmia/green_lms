@@ -3,5 +3,116 @@
 }
 
 .main{
-    height: 600px;
+    background-color: #F7F7F7;
+    padding: 1% 38%;
 }
+
+.login-section{
+    padding: 25px;
+    background-color: white;
+}
+.login-text{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.header-text{
+    padding-bottom: 10px;
+}
+
+.label-text{
+    display: block;
+
+}
+
+.container label{
+    display: block;
+}
+
+.star{
+    color: red;
+}
+.login-input{
+    width: 308px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+    outline: none;
+
+}
+.login-btn{
+    width: 320px;
+    color: #ffff;
+    background-color: #49B14D;
+    border: 1px solid #49B14D;
+    border-radius: 3px;
+    padding: 5px;
+}
+.login-btn:hover{
+    background-color: #1a831e;
+    cursor: pointer;
+    
+}
+.login-panel{
+    padding: 10px 30px;
+    
+}
+
+.panel-text{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.admin{
+    background-color: #0f80f8;
+    color: #ffff;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+.admin:hover{
+    background-color: #065dbb ;
+    cursor: pointer;
+}
+.librarian{
+    background-color: #f52d41;
+    color: #ffff;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+.librarian:hover{
+    background-color: #cc0b1e;
+    cursor: pointer;
+}
+.member{
+    background-color: #f8c220;
+    color: #000000;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+.member:hover{
+    background-color: #d6a103;
+    cursor: pointer;
+}
+.guest{
+    background-color: #49B14D;
+    color: #ffff;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+.guest:hover{
+    background-color: #038808;
+    cursor: pointer;
+}
+
+
+
